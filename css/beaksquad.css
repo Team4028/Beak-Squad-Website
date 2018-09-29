@@ -29,6 +29,7 @@
 	top: 0; /* Stay at the top */
 	left: -10em;
 	background: hsla(278.8, 89%, 24.9%, 1);
+	background: hsla(278.8, 89%, 24.9%, 0.7);
 	opacity: 50; /*Sidebar Opacity + child elements */
 	filter: alpha(opacity=50); /* Opacity for IE8 and earlier */
 	overflow-x: hidden; /* Disable horizontal scroll */
@@ -66,4 +67,9 @@ background: hsla(278.8, 89%, 24.9%, 0.7)
 @media screen and (max-height: 450px) {
     .sidenav {padding-top: 15px;}
     .sidenav a {font-size: 18px;}
+}
+.hypevideo {
+	margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
 }
