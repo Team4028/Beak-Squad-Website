@@ -1,10 +1,23 @@
+#wrapper {
+    width: 100%;
+    overflow: hidden;
+}
+#container {
+    width: 100%;
+    margin: 0 auto;
+	text-align: center;
+}
 .main-header {
-	width: 101%;
+    width: 80%;
+}
+#header-box {
+	background-color: #CCCCCC;
+	width: 150%;
 	height: 50%;
-	position: fixed;
-	padding-top: 0;
+	position: absolute;
 	top: 0;
-	align-content: center;
+	left: 0;
+	z-index: -1;
 }
 
 /* Sidebar Menu */
@@ -15,7 +28,7 @@
 	z-index: 1;
 	top: 0; /* Stay at the top */
 	left: -10em;
-	background-color: #000000; /* TODO replace with correct color */
+	background: hsla(278.8, 89%, 24.9%, 0.7);
 	opacity: 50; /*Sidebar Opacity + child elements */
 	filter: alpha(opacity=50); /* Opacity for IE8 and earlier */
 	overflow-x: hidden; /* Disable horizontal scroll */
