@@ -28,7 +28,15 @@
 	z-index: 1;
 	top: 0; /* Stay at the top */
 	left: -10em;
+<<<<<<< HEAD
+<<<<<<< HEAD
+	background-color: #696969; /* TODO replace with correct color */
+=======
 	background: hsla(278.8, 89%, 24.9%, 0.7);
+>>>>>>> master
+=======
+	background: hsla(278.8, 89%, 24.9%, 0.7);
+>>>>>>> f6179d3f80dde363b6cbc878ec9c91a91ca8775e
 	opacity: 50; /*Sidebar Opacity + child elements */
 	filter: alpha(opacity=50); /* Opacity for IE8 and earlier */
 	overflow-x: hidden; /* Disable horizontal scroll */
@@ -74,4 +82,9 @@
 @media screen and (max-height: 450px) {
     .sidenav {padding-top: 15px;}
     .sidenav a {font-size: 18px;}
+}
+.hypevideo {
+	margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
 }
