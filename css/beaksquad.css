@@ -1,10 +1,27 @@
-.main-header {
+/*.main-header {
 	width: 101%;
 	height: 60%;
 	position: fixed;
 	padding-top: 0;
 	top: 0;
 	align-content: center;
+}*/
+#wrapper {
+    width: 100%;
+    overflow: hidden;
+}
+#container {
+    width: 100%;
+    margin: 0 auto;
+	text-align: center;
+}
+.banner-img {
+    width: 100%;
+}
+#header-box {
+	background-color: #CCCCCC;
+	width: 150;
+	
 }
 
 /* Sidebar Menu */
