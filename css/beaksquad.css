@@ -17,7 +17,7 @@
 	z-index: 1;
 	top: 0; /* Stay at the top */
 	left: -10em;
-	background-color: #000000; /* TODO replace with correct color */
+	background-color: #ffffff; /* TODO replace with correct color */
 	opacity: 50; /*Sidebar Opacity + child elements */
 	filter: alpha(opacity=50); /* Opacity for IE8 and earlier */
 	overflow-x: hidden; /* Disable horizontal scroll */
