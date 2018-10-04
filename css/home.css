@@ -1,0 +1,109 @@
+#wrapper {
+    width: 100%;
+    overflow: hidden;
+}
+#container {
+    width: 100%;
+    margin: 0 auto;
+	text-align: center;
+}
+.main-header {
+    width: 80%;
+}
+#header-box {
+	background-color: #CCCCCC;
+	width: 150%;
+	height: 50%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: -1;
+}
+
+/* Sidebar Menu */
+.sidenav {
+	height: 100%;
+	width: 250px;
+	position: fixed;
+	z-index: 1;
+	top: 0; /* Stay at the top */
+	left: -10em;
+	background: hsla(278.8, 89%, 24.9%, 1);
+	opacity: 50; /*Sidebar Opacity + child elements */
+	filter: alpha(opacity=50); /* Opacity for IE8 and earlier */
+	overflow-x: hidden; /* Disable horizontal scroll */
+	padding-top: 60px; /* Place content 60px from the top */
+	transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+}
+
+/* Nav menu Links */
+.sidenav a {
+    padding: 8px 8px 8px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #CCCCCC; /* Grey */
+    display: block;
+    transition: 0.3s;
+}
+
+/* Snazzy color changing stuff with hovering mouse over the link */
+.sidenav a:hover {
+    color: #ffffff; /* White */
+}
+
+.sidenav:hover { 
+left: 0;
+background: hsla(278.8, 89%, 24.9%, 0.7)
+}
+
+/* Style page content */
+.main {
+    margin-left: 250px; /* Same as the width of the sidebar */
+    padding: 0px 10px;
+}
+
+/* Changes the style of the sidebar (less padding and a smaller font size) on smaller screens (height is less than 450px) */
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+.youtubevideo {
+	position: absolute;
+    margin: auto;
+    top: 75%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+}
+
+.eventsbutton {
+	position: absolute;
+    margin: auto;
+    top: 105%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+	outline: #000000 solid 1px;
+	padding: 25px 40px 25px 40px;
+	font-size: 25px;
+}
+
+.storebutton {
+	position: absolute;
+    margin: auto;
+    top: 105%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+	outline: #000000 solid 1px;
+	padding: 25px 40px 25px 40px;
+	font-size: 25px;
+}
+
+.resourcesbutton {
+	position: absolute;
+    margin: auto;
+    top: 110%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+	outline: #000000 solid 1px;
+	padding: 25px 40px 25px 40px;
+	font-size: 25px;
+}
