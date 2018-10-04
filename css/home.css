@@ -76,20 +76,27 @@ background: hsla(278.8, 89%, 24.9%, 0.7)
 }
 
 .eventsbutton {
-	position: absolute;
     margin: auto;
     top: 105%;
     left: 70%;
     transform: translate(-50%, -50%);
-	outline: #000000 solid 1px;
+	/*outline: #000000 solid 1px;
 	padding: 25px 40px 25px 40px;
-	font-size: 25px;
+	font-size: 25px;*/
+	position: absolute;
+	width: 343px;
+	height: 83px;
+	/*left: 16px;
+	top: 78px;*/
+	background: hsla(278.8, 89%, 24.9%, 1);
+	box-shadow: 0px 20px 50px rgba(0, 0, 0, 0.25);
+	border-radius: 23px;
 }
 
 .storebutton {
 	position: absolute;
     margin: auto;
-    top: 105%;
+    top: 120%;
     left: 70%;
     transform: translate(-50%, -50%);
 	outline: #000000 solid 1px;
@@ -100,7 +107,7 @@ background: hsla(278.8, 89%, 24.9%, 0.7)
 .resourcesbutton {
 	position: absolute;
     margin: auto;
-    top: 110%;
+    top: 200%;
     left: 70%;
     transform: translate(-50%, -50%);
 	outline: #000000 solid 1px;
