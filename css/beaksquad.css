@@ -1,18 +1,18 @@
 #wrapper {
-    width: 100%;
+    width: 100;
     overflow: hidden;
 }
 #container {
-    width: 100%;
+    width: 100;
     margin: 0 auto;
 	text-align: center;
 }
 .main-header {
-    width: 80%;
+    width: 101%;
 }
 #header-box {
 	background-color: #CCCCCC;
-	width: 150%;
+	width: 900;
 	height: 50%;
 	position: absolute;
 	top: 0;
@@ -28,15 +28,7 @@
 	z-index: 1;
 	top: 0; /* Stay at the top */
 	left: -10em;
-<<<<<<< HEAD
-<<<<<<< HEAD
-	background-color: #696969; /* TODO replace with correct color */
-=======
 	background: hsla(278.8, 89%, 24.9%, 0.7);
->>>>>>> master
-=======
-	background: hsla(278.8, 89%, 24.9%, 0.7);
->>>>>>> f6179d3f80dde363b6cbc878ec9c91a91ca8775e
 	opacity: 50; /*Sidebar Opacity + child elements */
 	filter: alpha(opacity=50); /* Opacity for IE8 and earlier */
 	overflow-x: hidden; /* Disable horizontal scroll */
