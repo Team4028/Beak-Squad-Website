@@ -80,41 +80,78 @@ background: hsla(278.8, 89%, 24.9%, 0.7)
     top: 105%;
     left: 70%;
     transform: translate(-50%, -50%);
-	/*outline: #000000 solid 1px;
-	padding: 25px 40px 25px 40px;
-	font-size: 25px;*/
+	border: none;
+	font-size: 35px;
 	position: absolute;
 	width: 343px;
 	height: 83px;
-	background: hsla(278.8, 89%, 24.9%, 1);
-	border-radius: 23px;
+	background-color: hsla(278.8, 89%, 24.9%, 1);
+	color: #FFFFFF;
+	border-radius: 20px;
 	text-align: center;
-	animation-name: shadowevents;
-    animation-duration: 4s;
+	line-height: 75px;
+	-webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.5s;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+    animation: 2s;
+	font-family: Helvetica;
 }
-@keyframes shadowevents{}
-.eventsbutton shadowevents:hover {
+	.eventsbutton:hover {
 	box-shadow: 0px 20px 50px rgba(0, 0, 0, 0.25);
 }
 
 .storebutton {
-	position: absolute;
     margin: auto;
     top: 120%;
     left: 70%;
     transform: translate(-50%, -50%);
-	outline: #000000 solid 1px;
-	padding: 25px 40px 25px 40px;
-	font-size: 25px;
+	border: none;
+	font-size: 35px;
+	position: absolute;
+	width: 343px;
+	height: 83px;
+	background-color: hsla(278.8, 89%, 24.9%, 1);
+	color: #FFFFFF;
+	border-radius: 20px;
+	text-align: center;
+	line-height: 75px;
+	-webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.5s;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+    animation: 2s;
+	font-family: Helvetica;
+}
+	.storebutton:hover {
+	box-shadow: 0px 20px 50px rgba(0, 0, 0, 0.25);
 }
 
 .resourcesbutton {
-	position: absolute;
     margin: auto;
-    top: 200%;
+    top: 135%;
     left: 70%;
     transform: translate(-50%, -50%);
-	outline: #000000 solid 1px;
-	padding: 25px 40px 25px 40px;
-	font-size: 25px;
+	border: none;
+	font-size: 35px;
+	position: absolute;
+	width: 343px;
+	height: 83px;
+	background-color: hsla(278.8, 89%, 24.9%, 1);
+	color: #FFFFFF;
+	border-radius: 20px;
+	text-align: center;
+	line-height: 75px;
+	-webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.5s;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+    animation: 2s;
+	font-family: Helvetica;
+}
+	.resourcesbutton:hover {
+	box-shadow: 0px 20px 50px rgba(0, 0, 0, 0.25);
 }
