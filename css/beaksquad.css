@@ -1,5 +1,5 @@
 body {
-	background-color: #CCCCCC;
+	background-color: #696969;
 }
 
 #wrapper {
@@ -78,6 +78,14 @@ background: hsla(278.8, 89%, 24.9%, 0.7)
     left: 70%;
     transform: translate(-50%, -50%);
 	box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.25);
+}
+
+.viddesc {
+	position: absolute;
+	margin: auto;
+	top: 75%;
+	left: 25%;
+	transform: translate(-50%, -50%);
 }
 
 .eventsbutton {
@@ -164,7 +172,7 @@ background: hsla(278.8, 89%, 24.9%, 0.7)
 .miniblog {
 	position: absolute;
     margin: auto;
-    top: 75%;
+    top: 135%;
     left: 25%;
     transform: translate(-50%, -50%);
 	box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.25);
