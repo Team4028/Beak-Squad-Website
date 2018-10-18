@@ -3,7 +3,7 @@ body {
 }
 
 #wrapper {
-    width: 100%;
+    width: 100;
     overflow: hidden;
 }
 #container {
@@ -13,7 +13,6 @@ body {
 }
 .main-header {
     width: 100%;
-}
 
 /* Sidebar Menu */
 .sidenav {
