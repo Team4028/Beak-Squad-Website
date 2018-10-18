@@ -1,5 +1,5 @@
 body {
-	background-color: #696969;
+	background-color: #CCCCCC;
 }
 
 #wrapper {
@@ -7,12 +7,22 @@ body {
     overflow: hidden;
 }
 #container {
-    width: 100%;
+    width: 100;
     margin: auto;
 	text-align: center;
 }
 .main-header {
-    width: 100%;
+    width: 101%;
+}
+#header-box {
+	background-color: #CCCCCC;
+	width: 900;
+	height: 50%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: -1;
+}
 
 /* Sidebar Menu */
 .sidenav {
@@ -65,7 +75,7 @@ background: hsla(278.8, 89%, 24.9%, 0.7)
 	position: absolute;
     margin: auto;
     top: 90%;
-    left: 75%;
+    left: 70%;
     transform: translate(-50%, -50%);
 	box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.25);
 }
@@ -73,19 +83,16 @@ background: hsla(278.8, 89%, 24.9%, 0.7)
 .viddesc {
 	position: absolute;
 	margin: auto;
+	top: 105;
+	left: 66%;
 	height: 50px;
-	width: 500px;
-	top: 65%;
-	left: 35%;
-	transform: translate(-50%, -50%);
-	font-size: 25px;
-	color: #FFFFFF;
+	width: 50px;
 }
 
 .eventsbutton {
     margin: auto;
     top: 120%;
-    left: 75%;
+    left: 70%;
     transform: translate(-50%, -50%);
 	border: none;
 	font-size: 35px;
@@ -112,7 +119,7 @@ background: hsla(278.8, 89%, 24.9%, 0.7)
 .storebutton {
     margin: auto;
     top: 135%;
-    left: 75%;
+    left: 70%;
     transform: translate(-50%, -50%);
 	border: none;
 	font-size: 35px;
@@ -139,7 +146,7 @@ background: hsla(278.8, 89%, 24.9%, 0.7)
 .resourcesbutton {
     margin: auto;
     top: 150%;
-    left: 75%;
+    left: 70%;
     transform: translate(-50%, -50%);
 	border: none;
 	font-size: 35px;
@@ -166,7 +173,7 @@ background: hsla(278.8, 89%, 24.9%, 0.7)
 .miniblog {
 	position: absolute;
     margin: auto;
-    top: 135%;
+    top: 1000%;
     left: 25%;
     transform: translate(-50%, -50%);
 	box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.25);
