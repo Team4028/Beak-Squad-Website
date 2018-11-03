@@ -1,27 +1,26 @@
-body {
+/*body {
 	background-color: #969696;
+}*/
+
+body {
+	width: 100%;
+	overflow-x: hidden;
+	overflow-y: scroll;
 }
 
 #wrapper {
-    width: 100;
+    width: 100%;
     overflow: hidden;
 }
+
 #container {
-    width: 100;
+    width: 100%;
     margin: auto;
 	text-align: center;
 }
+
 .main-header {
-    width: 101%;
-}
-#header-box {
-	background-color: #CCCCCC;
-	width: 900;
-	height: 50%;
-	position: absolute;
-	top: 0;
-	left: 0;
-	z-index: -1;
+    width: 100%;
 }
 
 /* Sidebar Menu */
@@ -38,6 +37,7 @@ body {
 	overflow-x: hidden; /* Disable horizontal scroll */
 	padding-top: 60px; /* Place content 60px from the top */
 	transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+	overflow: hidden;
 }
 
 /* Nav menu Links */
@@ -48,6 +48,8 @@ body {
     color: #CCCCCC; /* Grey */
     display: block;
     transition: 0.3s;
+	width: 18%;
+	height: 18%;
 }
 
 /* Snazzy color changing stuff with hovering mouse over the link */
@@ -56,8 +58,9 @@ body {
 }
 
 .sidenav:hover { 
+width: 150px;
 left: 0;
-background: hsla(278.8, 89%, 24.9%, 0.7)
+background: hsla(278.8, 89%, 24.9%, 0.95);
 }
 
 /* Style page content */
@@ -71,55 +74,87 @@ background: hsla(278.8, 89%, 24.9%, 0.7)
     .sidenav {padding-top: 15px;}
     .sidenav a {font-size: 18px;}
 }
+
+.featuredvid {
+	position: absolute;
+	margin: auto;
+	top: 75%;
+	left: 15%;
+	height: 15%;
+	width: 30%;
+	font-size: 40px;
+	color: hsla(278.8, 89%, 24.9%, 1);
+	font-family: Helvetica, Arial, "Comic Sans", "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", "sans-serif";
+	font-weight: bold;
+	font-variant: small-caps;
+}
+
 .youtubevideo {
 	position: absolute;
     margin: auto;
-    top: 90%;
-    left: 70%;
+	width: 37%;
+	height: 45%;
+    top: 105%;
+    left: 33%;
     transform: translate(-50%, -50%);
 	box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.25);
 }
 
-.viddesc {
+.featurednews {
 	position: absolute;
 	margin: auto;
 	top: 75%;
-	left: 20%;
-	height: 50px;
-	width: 450px;
-	font-size: 25px;
-	color: #FFFFFF;
-	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+	left: 60%;
+	height: 15%;
+	width: 30%;
+	font-size: 40px;
+	color: hsla(278.8, 89%, 24.9%, 1);
+	font-family: Helvetica, Arial, "Comic Sans", "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", "sans-serif";
+	font-weight: bold;
+	font-variant: small-caps;
 }
-
+	
 .eventsbutton {
-    margin: auto;
-    top: 120%;
-    left: 70%;
-    transform: translate(-50%, -50%);
-	border: none;
-	font-size: 35px;
+	top: 150%;
+	left: 0;
+	width: 100%;
+	height: 100%;
 	position: absolute;
-	width: 343px;
-	height: 83px;
-	background-color: hsla(278.8, 89%, 24.9%, 1);
-	color: #FFFFFF;
-	border-radius: 20px;
+	/*border: 1px solid #333;*/
+	margin: auto;
+	overflow: hidden;
 	text-align: center;
-	line-height: 75px;
-	-webkit-transition-duration: 0.4s; /* Safari */
-    transition-duration: 0.5s;
-    text-decoration: none;
-    overflow: hidden;
-    cursor: pointer;
-    animation: 2s;
-	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	color: #ffffff;
 }
-.eventsbutton:hover {
-	box-shadow: 0px 20px 50px rgba(0, 0, 0, 0.25);
+.eventsbutton img {
+	width: 100%;
+	-moz-transition: all 0.8s;
+	-webkit-transition: all 0.8s;
+	transition: all 0.8s;
 }
 
-.storebutton {
+.eventsbutton:hover img {
+	-moz-transform: scale(1.15);
+	-webkit-transform: scale(1.15);
+	transform: scale(1.15);
+}
+.eventsbutton h2 {
+	position: absolute;
+	top: 40%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-size: 100px;
+	-moz-transition: all 0.8s;
+	-webkit-transition: all 0.8s;
+	transition: all 0.8;
+}
+.eventsbutton h2 {
+	-moz-transform: scale(1.15);
+	-webkit-transform: scale(1.15);
+	transform: scale(1.15);
+}
+
+/*.storebutton {
     margin: auto;
     top: 135%;
     left: 70%;
@@ -127,15 +162,15 @@ background: hsla(278.8, 89%, 24.9%, 0.7)
 	border: none;
 	font-size: 35px;
 	position: absolute;
-	width: 343px;
-	height: 83px;
+	width: 35%;
+	height: 12%;
 	background-color: hsla(278.8, 89%, 24.9%, 1);
 	color: #FFFFFF;
 	border-radius: 20px;
 	text-align: center;
 	line-height: 75px;
 	-webkit-transition-duration: 0.4s; /* Safari */
-    transition-duration: 0.5s;
+    /*transition-duration: 0.5s;
     text-decoration: none;
     overflow: hidden;
     cursor: pointer;
@@ -154,15 +189,15 @@ background: hsla(278.8, 89%, 24.9%, 0.7)
 	border: none;
 	font-size: 35px;
 	position: absolute;
-	width: 343px;
-	height: 83px;
+	width: 35%;
+	height: 12%;
 	background-color: hsla(278.8, 89%, 24.9%, 1);
 	color: #FFFFFF;
 	border-radius: 20px;
 	text-align: center;
 	line-height: 75px;
 	-webkit-transition-duration: 0.4s; /* Safari */
-    transition-duration: 0.5s;
+    /*transition-duration: 0.5s;
     text-decoration: none;
     overflow: hidden;
     cursor: pointer;
@@ -171,13 +206,15 @@ background: hsla(278.8, 89%, 24.9%, 0.7)
 }
 .resourcesbutton:hover {
 	box-shadow: 0px 20px 50px rgba(0, 0, 0, 0.25);
-}
+}*/
 
 .miniblog {
 	position: absolute;
     margin: auto;
-    top: 140%;
-    left: 30%;
+    top: 110%;
+    left: 79%;
+	width: 40%;
+	height: 55%;
     transform: translate(-50%, -50%);
 	box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.25);
 }
@@ -185,10 +222,10 @@ background: hsla(278.8, 89%, 24.9%, 0.7)
 footer {
 	position: absolute;
 	text-align: center;
-	top: 200%;
+	top: 1000%;
 	height: 150px;
 	width: 100%;
-	background-color: #696969;
+	background-color: #b5b5b5;
 	z-index: 1;
 	display: block;
 }
