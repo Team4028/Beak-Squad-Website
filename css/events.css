@@ -1,0 +1,59 @@
+/* CSS Document */
+
+.sidenav {
+	height: 100%;
+	width: 250px;
+	position: fixed;
+	z-index: 2;
+	top: 0; /* Stay at the top */
+	left: -10em;
+	background: hsla(278.8, 89%, 24.9%, 1);
+	opacity: 50; /*Sidebar Opacity + child elements */
+	filter: alpha(opacity=50); /* Opacity for IE8 and earlier */
+	overflow-x: hidden; /* Disable horizontal scroll */
+	padding-top: 60px; /* Place content 60px from the top */
+	transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+	overflow: hidden;
+}
+
+/* Nav menu Links */
+.sidenav a {
+    padding: 8px 8px 8px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #CCCCCC; /* Grey */
+    display: block;
+    transition: 0.3s;
+	width: 18%;
+	height: 18%;
+}
+
+/* Snazzy color changing stuff with hovering mouse over the link */
+.sidenav a:hover {
+    color: #ffffff; /* White */
+}
+
+.sidenav:hover { 
+width: 150px;
+left: 0;
+background: hsla(278.8, 89%, 24.9%, 0.95);
+}
+
+
+footer {
+	position: absolute;
+	text-align: center;
+	top: 1000%;
+	height: 150px;
+	width: 100%;
+	background-color: #b5b5b5;
+	z-index: 1;
+	display: block;
+}
+
+.twitterlink:hover {
+	color: hsla(278.8, 89%, 24.9%, 0.7)
+}
+
+.facebolink:hover {
+	color
