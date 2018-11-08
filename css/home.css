@@ -149,6 +149,7 @@ background: hsla(278.8, 89%, 24.9%, 0.95);
 	left: 50%;
 	transform: translate(-50%, -50%);
 	font-size: 100px;
+	color: #ffffff;
 	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
 }
 
