@@ -1,7 +1,13 @@
 /* CSS Document */
-/*body {
-	background-color: #969696;
-}*/
+* {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        outline: 0;
+        font-size: 100%;
+        vertical-align: baseline;
+        background: transparent;
+    }
 
 body {
 	width: 100%;
@@ -251,6 +257,16 @@ footer {
 	background-color: #b5b5b5;
 	z-index: 1;
 	display: block;
+}
+.footer p {
+	top: 40%;
+}
+
+.footer p + p {
+	top: 40%;
+}
+.footer p + p + p {
+	top: 40%;
 }
 
 .twitterlink:hover {
