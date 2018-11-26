@@ -1,5 +1,78 @@
 /* CSS Document */
 
+/* Removes White Bar Above Header*/
+* {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        outline: 0;
+        font-size: 100%;
+        vertical-align: baseline;
+        background: transparent;
+}
+
+/* Keeps Webpage Width At 100% */
+body {
+	width: 100%;
+	overflow-x: hidden;
+	overflow-y: scroll;
+}
+
+.currentevent {
+	height: 30%;
+	width: 100%;
+	position: absolute;
+	background: #000000
+}
+.currentevent h2 {
+position: absolute;
+	top: 40%;
+	left: 25%;
+	transform: translate(-50%, -50%);
+	font-size: 100px;
+	color: #ffffff;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+}
+.currentevent a {
+	position: absolute;
+	top: 57%;
+	left: 25%;
+	transform: translate(-50%, -50%);
+	font-size: 25px;
+	color: #ffffff;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+}
+.currentevent a + a {
+	position: absolute;
+	top: 70%;
+	left: 25%;
+	transform: translate(-50%, -50%);
+	font-size: 25px;
+	color: #ffffff;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+}
+.currentevent a + a + a {
+	position: absolute;
+	top: 80%;
+	left: 25%;
+	transform: translate(-50%, -50%);
+	font-size: 25px;
+	color: #ffffff;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+}
+.twitchlink {
+	position: absolute;
+	top: .5%;
+	left: 70%;
+	padding:2px 0px 4px;
+	display:block;
+	font-weight:normal;
+	font-size:10px;
+	text-decoration:underline;
+	color: #ffffff;
+}
+
+/* Sidebar Menu */
 .sidenav {
 	height: 100%;
 	width: 250px;
@@ -39,6 +112,18 @@ left: 0;
 background: hsla(278.8, 89%, 24.9%, 0.95);
 }
 
+/* Style page content */
+.main {
+    margin-left: 250px; /* Same as the width of the sidebar */
+    padding: 0px 10px;
+}
+
+/* Changes the style of the sidebar (less padding and a smaller font size) on smaller screens (height is less than 450px) */
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+
 
 footer {
 	position: absolute;
@@ -56,4 +141,5 @@ footer {
 }
 
 .facebolink:hover {
-	color
+	color: hsla(278.8, 89%, 24.9%, 0.7)
+}

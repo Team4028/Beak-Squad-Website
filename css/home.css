@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+/* CSS Document */
+* {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        outline: 0;
+        font-size: 100%;
+        vertical-align: baseline;
+        background: transparent;
+    }
+
+>>>>>>> 6397f1c5f7e9b03dc57832f00cb7eca03897be46
 body {
 	width: 100%;
 	overflow-x: hidden;
@@ -246,6 +260,16 @@ footer {
 	background-color: #b5b5b5;
 	z-index: 1;
 	display: block;
+}
+.footer p {
+	top: 40%;
+}
+
+.footer p + p {
+	top: 40%;
+}
+.footer p + p + p {
+	top: 40%;
 }
 
 .twitterlink:hover {
