@@ -1,0 +1,535 @@
+/* CSS Document */
+
+/* Removes White Bar Above Header*/
+* {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        outline: 0;
+        font-size: 100%;
+        vertical-align: baseline;
+        background: transparent;
+}
+
+/* Keeps Webpage Width At 100% */
+body {
+	width: 100%;
+	overflow-x: hidden;
+	overflow-y: scroll;
+}
+
+.currentevent {
+	height: 30%;
+	width: 100%;
+	position: absolute;
+	background: #000000
+}
+.currentevent h2 {
+	position: absolute;
+	top: 40%;
+	left: 25%;
+	transform: translate(-50%, -50%);
+	font-size: 100px;
+	color: #ffffff;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+}
+.currentevent a {
+	position: absolute;
+	top: 60%;
+	left: 25%;
+	transform: translate(-50%, -50%);
+	font-size: 25px;
+	color: #ffffff;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+}
+.currentevent a + a {
+	position: absolute;
+	top: 75%;
+	left: 25%;
+	transform: translate(-50%, -50%);
+	font-size: 25px;
+	color: #ffffff;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+}
+.currentevent a + a + a {
+	position: absolute;
+	top: 85%;
+	left: 25%;
+	transform: translate(-50%, -50%);
+	font-size: 25px;
+	color: #ffffff;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+}
+.twitchlink {
+	position: absolute;
+	top: 0;
+	left: 65%;
+	height: 29.7%;
+	width: 30%;
+	padding:2px 0px 4px;
+	display: block;
+	font-weight: normal;
+	font-size: 10px;
+	text-decoration: underline;
+	color: #ffffff;
+}
+
+.match1 {
+	top: 30%;
+	height: 12%;
+	width: 100%;
+	position: absolute;
+	background: #696969;
+}
+.match1 h2 {
+	position: absolute;
+	top: 40%;
+	left: 20%;
+	transform: translate(-50%, -50%);
+	font-size: 50px;
+	color: #ffffff;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+}
+.match1 a {
+	position: absolute;
+	top: 70%;
+	left: 20%;
+	transform: translate(-50%, -50%);
+	font-size: 25px;
+	color: #ffffff;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+}
+.match1 div {
+	position: absolute;
+	top: 30%;
+	left: 81.5%;
+	height: 40%;
+	width: 26%;
+	transform: translate(-50%, -50%);
+	font-size: 25px;
+	background: #4169E1;
+	color: #ffffff;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+} /*Blue Team Color*/
+.match1 div + div {
+	position: absolute;
+	top: 73%;
+	left: 81.5%;
+	height: 40%;
+	width: 26%;
+	transform: translate(-50%, -50%);
+	font-size: 25px;
+	background: #DC143C;
+	color: #ffffff;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+} /*Red Team Color*/
+.match1 div + div + div {
+	position: absolute;
+	top: 100%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	height: 1%;
+	width: 100%;
+	background: #000000;
+	z-index: 2;
+} /*Black Line*/
+.match1 a + a {
+	position: absolute;
+	top: 30%;
+	left: 75%;
+	transform: translate(-50%, -50%);
+	font-size: 25px;
+	color: #ffffff;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+	z-index: 3;
+} /*Blue Team Alliance*/
+.match1 a + a + a {
+	position: absolute;
+	top: 30%;
+	left: 90%;
+	transform: translate(-50%, -50%);
+	font-size: 25px;
+	color: #ffffff;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+} /*Blue Team Score*/
+.match1 a + a + a + a {
+	position: absolute;
+	top: 70%;
+	left: 75%;
+	transform: translate(-50%, -50%);
+	font-size: 25px;
+	color: #ffffff;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+} /*Red team Alliance*/
+.match1 a + a + a + a + a {
+	position: absolute;
+	top: 70%;
+	left: 90%;
+	transform: translate(-50%, -50%);
+	font-size: 25px;
+	color: #ffffff;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+} /*Red Team Score*/
+
+.match2 {
+	top: 42%;
+	height: 12%;
+	width: 100%;
+	position: absolute;
+	background: #696969;
+}
+.match2 h2 {
+	position: absolute;
+	top: 40%;
+	left: 20%;
+	transform: translate(-50%, -50%);
+	font-size: 50px;
+	color: #ffffff;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+}
+.match2 a {
+	position: absolute;
+	top: 70%;
+	left: 20%;
+	transform: translate(-50%, -50%);
+	font-size: 25px;
+	color: #ffffff;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+}
+.match2 div {
+	position: absolute;
+	top: 30%;
+	left: 81.5%;
+	height: 40%;
+	width: 26%;
+	transform: translate(-50%, -50%);
+	font-size: 25px;
+	background: #4169E1;
+	color: #ffffff;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+} /*Blue Team Color*/
+.match2 div + div {
+	position: absolute;
+	top: 73%;
+	left: 81.5%;
+	height: 40%;
+	width: 26%;
+	transform: translate(-50%, -50%);
+	font-size: 25px;
+	background: #DC143C;
+	color: #ffffff;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+} /*Red Team Color*/
+.match2 div + div + div {
+	position: absolute;
+	top: 100%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	height: 1%;
+	width: 100%;
+	background: #000000;
+	z-index: 2;
+} /*Black Line*/
+.match2 a + a {
+	position: absolute;
+	top: 30%;
+	left: 75%;
+	transform: translate(-50%, -50%);
+	font-size: 25px;
+	color: #ffffff;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+	z-index: 2;
+} /*Blue Team Alliance*/
+.match2 a + a + a {
+	position: absolute;
+	top: 30%;
+	left: 90%;
+	transform: translate(-50%, -50%);
+	font-size: 25px;
+	color: #ffffff;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+} /*Blue Team Score*/
+.match2 a + a + a + a {
+	position: absolute;
+	top: 70%;
+	left: 75%;
+	transform: translate(-50%, -50%);
+	font-size: 25px;
+	color: #ffffff;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+} /*Red team Alliance*/
+.match2 a + a + a + a + a {
+	position: absolute;
+	top: 70%;
+	left: 90%;
+	transform: translate(-50%, -50%);
+	font-size: 25px;
+	color: #ffffff;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+} /*Red Team Score*/
+
+.match3 {
+	top: 54%;
+	height: 12%;
+	width: 100%;
+	position: absolute;
+	background: #696969;
+}
+.match3 h2 {
+	position: absolute;
+	top: 40%;
+	left: 20%;
+	transform: translate(-50%, -50%);
+	font-size: 50px;
+	color: #ffffff;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+}
+.match3 a {
+	position: absolute;
+	top: 70%;
+	left: 20%;
+	transform: translate(-50%, -50%);
+	font-size: 25px;
+	color: #ffffff;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+}
+.match3 div {
+	position: absolute;
+	top: 30%;
+	left: 81.5%;
+	height: 40%;
+	width: 26%;
+	transform: translate(-50%, -50%);
+	font-size: 25px;
+	background: #4169E1;
+	color: #ffffff;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+} /*Blue Team Color*/
+.match3 div + div {
+	position: absolute;
+	top: 73%;
+	left: 81.5%;
+	height: 40%;
+	width: 26%;
+	transform: translate(-50%, -50%);
+	font-size: 25px;
+	background: #DC143C;
+	color: #ffffff;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+} /*Red Team Color*/
+.match3 div + div + div {
+	position: absolute;
+	top: 100%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	height: 1%;
+	width: 100%;
+	background: #000000;
+	z-index: 2;
+} /*Black Line*/
+.match3 a + a {
+	position: absolute;
+	top: 30%;
+	left: 75%;
+	transform: translate(-50%, -50%);
+	font-size: 25px;
+	color: #ffffff;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+	z-index: 2;
+} /*Blue Team Alliance*/
+.match3 a + a + a {
+	position: absolute;
+	top: 30%;
+	left: 90%;
+	transform: translate(-50%, -50%);
+	font-size: 25px;
+	color: #ffffff;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+} /*Blue Team Score*/
+.match3 a + a + a + a {
+	position: absolute;
+	top: 70%;
+	left: 75%;
+	transform: translate(-50%, -50%);
+	font-size: 25px;
+	color: #ffffff;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+} /*Red team Alliance*/
+.match3 a + a + a + a + a {
+	position: absolute;
+	top: 70%;
+	left: 90%;
+	transform: translate(-50%, -50%);
+	font-size: 25px;
+	color: #ffffff;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+} /*Red Team Score*/
+
+.match4 {
+	top: 66%;
+	height: 12%;
+	width: 100%;
+	position: absolute;
+	background: #696969;
+}
+.match4 h2 {
+	position: absolute;
+	top: 40%;
+	left: 20%;
+	transform: translate(-50%, -50%);
+	font-size: 50px;
+	color: #ffffff;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+}
+.match4 a {
+	position: absolute;
+	top: 70%;
+	left: 20%;
+	transform: translate(-50%, -50%);
+	font-size: 25px;
+	color: #ffffff;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+}
+.match4 div {
+	position: absolute;
+	top: 30%;
+	left: 81.5%;
+	height: 40%;
+	width: 26%;
+	transform: translate(-50%, -50%);
+	font-size: 25px;
+	background: #4169E1;
+	color: #ffffff;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+} /*Blue Team Color*/
+.match4 div + div {
+	position: absolute;
+	top: 73%;
+	left: 81.5%;
+	height: 40%;
+	width: 26%;
+	transform: translate(-50%, -50%);
+	font-size: 25px;
+	background: #DC143C;
+	color: #ffffff;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+} /*Red Team Color*/
+.match4 div + div + div {
+	position: absolute;
+	top: 100%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	height: 1%;
+	width: 100%;
+	background: #000000;
+	z-index: 2;
+} /*Black Line*/
+.match4 a + a {
+	position: absolute;
+	top: 30%;
+	left: 75%;
+	transform: translate(-50%, -50%);
+	font-size: 25px;
+	color: #ffffff;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+	z-index: 2;
+} /*Blue Team Alliance*/
+.match4 a + a + a {
+	position: absolute;
+	top: 30%;
+	left: 90%;
+	transform: translate(-50%, -50%);
+	font-size: 25px;
+	color: #ffffff;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+} /*Blue Team Score*/
+.match4 a + a + a + a {
+	position: absolute;
+	top: 70%;
+	left: 75%;
+	transform: translate(-50%, -50%);
+	font-size: 25px;
+	color: #ffffff;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+} /*Red team Alliance*/
+.match4 a + a + a + a + a {
+	position: absolute;
+	top: 70%;
+	left: 90%;
+	transform: translate(-50%, -50%);
+	font-size: 25px;
+	color: #ffffff;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+} /*Red Team Score*/
+
+/* Sidebar Menu */
+.sidenav {
+	height: 100%;
+	width: 250px;
+	position: fixed;
+	z-index: 2;
+	top: 0; /* Stay at the top */
+	left: -10em;
+	background: hsla(278.8, 89%, 24.9%, 1);
+	opacity: 50; /*Sidebar Opacity + child elements */
+	filter: alpha(opacity=50); /* Opacity for IE8 and earlier */
+	overflow-x: hidden; /* Disable horizontal scroll */
+	padding-top: 60px; /* Place content 60px from the top */
+	transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+	overflow: hidden;
+}
+
+/* Nav menu Links */
+.sidenav a {
+    padding: 8px 8px 8px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #CCCCCC; /* Grey */
+    display: block;
+    transition: 0.3s;
+	width: 18%;
+	height: 18%;
+}
+
+/* Snazzy color changing stuff with hovering mouse over the link */
+.sidenav a:hover {
+    color: #ffffff; /* White */
+}
+
+.sidenav:hover { 
+width: 150px;
+left: 0;
+background: hsla(278.8, 89%, 24.9%, 0.95);
+}
+
+/* Style page content */
+.main {
+    margin-left: 250px; /* Same as the width of the sidebar */
+    padding: 0px 10px;
+}
+
+/* Changes the style of the sidebar (less padding and a smaller font size) on smaller screens (height is less than 450px) */
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+
+
+footer {
+	position: absolute;
+	text-align: center;
+	top: 1000%;
+	height: 150px;
+	width: 100%;
+	background-color: #b5b5b5;
+	z-index: 1;
+	display: block;
+}
+
+.twitterlink:hover {
+	color: hsla(278.8, 89%, 24.9%, 0.7)
+}
+
+.facebolink:hover {
+	color: hsla(278.8, 89%, 24.9%, 0.7)
+}
