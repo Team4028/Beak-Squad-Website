@@ -1,0 +1,130 @@
+<!DOCTYPE HTML>
+<html>
+	
+	<link rel="stylesheet" type="text/css" href="/CSS/home.css" media="all" />
+	<link rel="javascript" type="text/js" href="/JS/home.js" media="all" />
+
+<header>
+	
+	<meta charset="utf-8">
+	<title>Beak Squad - Home</title>
+
+	<div id="banner">
+		<div id="wrapper">
+			<div id="container">
+				<a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><img class="main-header" src="html/images/beak_squad_banner_x2.png" alt="Main Page Banner"></a>
+			</div>
+		</div>
+	</div>
+
+</header>
+
+<body>
+<!-- src="c9logo.jpg" -->
+	
+		<div id="sideNav" class="sidenav">
+		<a href="home.html"><img src="html/images/baseline_home_black_48dp.png" width="75" height="75" alt="Home"/></a>
+		<a href="about.html"><img src="html/images/baseline_supervisor_account_black_48dp.png" width="75" height="75" alt="About"/></a>
+		<a href="html/store.html"><img src="html/images/baseline_local_grocery_store_black_48dp.png" width="75" height="75" alt="Store"/></a>
+		<a href="html/events.html"><img src="html/images/baseline_event_black_48dp.png" width="75" height="75" alt="Events"/></a>
+		<a href="html/resources"><img src="html/images/baseline_clear_all_black_48dp.png" width="75" height="75" alt="Resources"/></a>
+	</div>
+
+	<div class="featuredvid"> Featured Video </div>
+	<iframe class="youtubevideo" src="https://www.youtube.com/embed/W6-Ag4kktqI?start=8" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+	<div class="upcomingevent"> Upcoming Event </div>
+	<div class="upcomingeventdiv"><p id="demo" class="upcomingeventcontent"></p></div>
+	<iframe class="upcomingeventcontent" src="https://www.thebluealliance.com/team/4028"> </iframe>
+	<script>
+// Set the date we're counting down to
+var countDownDate = new Date("Dec 22, 2018 0:0:0").getTime();
+// Update the count down every 1 second
+var x = setInterval(function() {
+  // Get todays date and time
+  var now = new Date().getTime();
+  // Find the distance between now and the count down date
+  var distance = countDownDate - now;
+  // Time calculations for days, hours, minutes and seconds
+  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+  // Display the result in the element with id="demo"
+  document.getElementById("demo").innerHTML = days + "d " + hours + "h "
+  + minutes + "m " + seconds + "s ";
+  // If the count down is finished, write some text 
+  if (distance < 0) {
+    clearInterval(x);
+    document.getElementById("demo").innerHTML = "EXPIRED";
+  }
+}, 1000);
+</script>
+
+,<!--<div id="orderFormCarousel" class="orderformcarousel" data-ride="carousel">
+  <!-- Indicators -->
+  <!--<ol class="carousel-indicators">
+    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+    <li data-target="#myCarousel" data-slide-to="1"></li>
+    <li data-target="#myCarousel" data-slide-to="2"></li>
+  </ol> -->
+
+	<!-- Wrapper for slides -->
+ <!-- <div class="carousel-inner">
+    <div class="item active">
+      <img src="bsquadmshirt.png" alt="Beak Squad Polo Male">
+      <div class="carousel-caption">
+        <h3>Beak Squad Polo Male</h3>
+        <p>$25</p>
+      </div>
+    </div>
+<div class="item">
+      <img src="bsquadfshirt.png" alt="Beak Squad Polo Female">
+      <div class="carousel-caption">
+        <h3>Beak Squad Polo Female</h3>
+        <p>$25</p>
+      </div>
+    </div>
+    <div class="item">
+      <img src="ny.jpg" alt="New York">
+      <div class="carousel-caption">
+        <h3>New York</h3>
+        <p>We love the Big Apple!</p>
+      </div>
+    </div>
+  </div> -->
+	<!--<div  class="eventsbutton">
+		<a href="events.html">
+			<img src="images/events_button.jpg"  alt="Event Button"/>
+			<h2>Events</h2>
+		</a>
+	</div>
+	<div class="storebutton">
+		<a href="store.html">
+			<img src="images/store_button.jpg" alt="Store Button"/>
+			<h2>Store</h2>
+		</a>
+	</div>
+	<div class="resourcesbutton">
+		<a href="resources.html">
+			<img src="images/resources_button.jpg" alt="Resources Button"/>
+			<h2>Resources</h2>
+		</a>
+	</div> -->
+	
+	<div class="clear-floated"></div>
+
+</body>
+
+<footer>
+	<div class="footer">
+		<p>Copyright © 2018 The Beak Squad. All Rights Reserved.</p>
+		<p>Contact Information: 
+			<a href="mailto:beaksquadcontact@gmail.com">beaksquadcontact@gmail.com</a>.</p>
+		<p>Follow Us: <a class="twitterlink" href="https://twitter.com/beaksquad4028/"><font color="#0000EE">Twitter</font></a> 
+			<a class="facebooklink" href="https://www.facebook.com/beaksquad4028/"> <font color="#0000EE">Facebook</font></a>
+		</p>
+	</div>
+</footer>
+</html>
+</html>
