@@ -129,7 +129,7 @@ background: hsla(278.8, 89%, 24.9%, 0.95);
 	background: #696969;
 	top: 75%;
 	left: 60%;
-}
+} 
 .upcomingeventcontent {
 	position: absolute;
     margin: auto;
@@ -141,9 +141,9 @@ background: hsla(278.8, 89%, 24.9%, 0.95);
 }
 
 .orderformcarousel {
-	position: absolute;
-	top: 150%;
+	top: 200%;
 	left: 50%;
+	position: relative; 
 }
 
 .eventsbutton {
