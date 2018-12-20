@@ -145,6 +145,37 @@ background: hsla(278.8, 89%, 24.9%, 0.95);
 	position: relative; 
 }
 
+.intelligrated {
+	position: absolute;
+	top: 200%;
+	left: 15%;
+}
+.intelligrated img {
+	width: 100%;
+	height: 100%;
+}
+
+.nashvillehot {
+	position: absolute;
+	top: 192%;
+	left: 45%;
+}
+.nashvillehot img {
+	width: 125%;
+	height: 125%;
+}
+
+.ethicon {
+	position: absolute;
+	top: 202%;
+	left: 65%;
+}
+.ethicon img {
+	width: 200%;
+	height: 200%;
+}
+.pg 
+
 .eventsbutton {
 	top: 150%;
 	left: 0;
