@@ -18,6 +18,7 @@ body {
 	overflow-y: scroll;
 }
 
+
 .currentevent {
 	height: 30%;
 	width: 100%;
@@ -527,6 +528,7 @@ footer {
 }
 
 .twitterlink:hover {
+
 	color: hsla(278.8, 89%, 24.9%, 0.7)
 }
 
