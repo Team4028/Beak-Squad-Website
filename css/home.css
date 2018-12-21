@@ -174,7 +174,24 @@ background: hsla(278.8, 89%, 24.9%, 0.95);
 	width: 200%;
 	height: 200%;
 }
-.pg 
+.pg {
+	position: absolute;
+	top: 220%;
+	left: 35%;
+}
+.pg img {
+	width: 70%;
+	height: 70%;
+}
+.msaarch {
+	position: absolute;
+	top: 240%;
+	left: 15%;
+}
+.msaarch img {
+	width: 55%;
+	height: 55%;
+}
 
 .eventsbutton {
 	top: 150%;
