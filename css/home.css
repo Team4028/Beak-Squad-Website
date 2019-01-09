@@ -154,20 +154,23 @@ background: hsla(278.8, 89%, 24.9%, 0.95);
 h3 {
 	font-size: 70pt;
 }
+.sponsors img {
+	padding: 30px;
+}
+
 .soaring img {
 	width: 300px;
-}
-#intelligrated {
-	width: 500px;
-		top: 50%;
-	transform: translateY(-50%);
-	padding-right: 30px;
-	padding-left:30px;
 }
 .golden img {
 	width: 500px;
 	padding: 30px;
 }
+#intelligrated {
+	width: 500px;
+		top: 50%;
+	transform: translateY(-50%);
+}
+
 /*.intelligrated {
 	position: relative;
 	top: 50%;
