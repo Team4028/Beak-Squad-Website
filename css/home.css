@@ -146,19 +146,33 @@ background: hsla(278.8, 89%, 24.9%, 0.95);
 }
 .sponsors {
 	position: absolute;
-	top: 190%;
-	background-color: aqua;
+	top: 150%;
 	text-align: center;
 	width: 100%;
 }
+
 h3 {
 	font-size: 70pt;
 }
-
-.intelligrated {
+.soaring img {
+	width: 300px;
+}
+#intelligrated {
+	width: 500px;
+		top: 50%;
+	transform: translateY(-50%);
+	padding-right: 30px;
+	padding-left:30px;
+}
+.golden img {
+	width: 500px;
+	padding: 30px;
+}
+/*.intelligrated {
 	position: relative;
 	top: 50%;
 	left: 15%;
+	transform: translate(-50%, -50%);
 }
 .intelligrated img {
 	width: 25%;
@@ -209,7 +223,7 @@ h3 {
 .msaarch img {
 	width: 55%;
 	height: 55%;
-}
+} */
 
 .eventsbutton {
 	top: 150%;

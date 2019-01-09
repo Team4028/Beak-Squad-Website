@@ -38,70 +38,30 @@
 	<div class="upcomingevent"> Upcoming Event </div>
 	<div class="upcomingeventdiv"><p id="demo" class="upcomingeventcontent"></p></div>
 	<iframe class="upcomingeventcontent" src="events.html"> </iframe>
-	<script>
-// Set the date we're counting down to
-var countDownDate = new Date("Dec 22, 2018 0:0:0").getTime();
-
-// Update the count down every 1 second
-var x = setInterval(function() {
-
-  // Get todays date and time
-  var now = new Date().getTime();
-
-  // Find the distance between now and the count down date
-  var distance = countDownDate - now;
-
-  // Time calculations for days, hours, minutes and seconds
-  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-
-  // Display the result in the element with id="demo"
-  document.getElementById("demo").innerHTML = days + "d " + hours + "h "
-  + minutes + "m " + seconds + "s ";
-
-  // If the count down is finished, write some text 
-  if (distance < 0) {
-    clearInterval(x);
-    document.getElementById("demo").innerHTML = "EXPIRED";
-  }
-}, 1000);
-</script>
 
 <div class="sponsors">
 	<div class="soaring">
-	<h3>Soaring</h3>
-<div class="intelligrated">
-	<a href="https://www.intelligrated.com/en">
-        <img src="images/intelligrated.png" alt="Honeywell Intelligrated"/>
-	</a>
-</div>
-<div class="phillipsedison">
+	<h3>Soaring Sponsors</h3>
 		<a href="https://www.phillipsedison.com/">
 			<img src="images/philipsedison.png" alt="Phillips Edison">
 		</a>
-	</div>
-<div class="nashvillehot">
+		<a href="https://www.intelligrated.com/en">
+        <img id="intelligrated" src="images/intelligrated.png" alt="Honeywell Intelligrated"/>
+	</a>
     	<a href="https://www.mikesnashvillehot.com/">
 			<img src="images/nashvillehot.webp" alt="Mike's Nashville Hot">
    	 	</a>
 	</div>
-	</div>
 	<div class="golden">
-		<h3>Golden</h3>
-<div class="ethicon">
+		<h3>Golden Sponsors</h3>
     	<a href="https://www.ethicon.com/">
         	<img src="images/ethicon.svg" alt="Ethicon">
     	</a>
-	</div>
-	<div class="msaarch">
     	<a href="https://www.msaarch.com/">
         	<img src="images/MSA-logo.png" alt="MSA Architects">
     	</a>
 	</div>
 	</div> <!-- end of golden -->
-</div>
 <!--<div id="orderFormCarousel" class="orderformcarousel" data-ride="carousel">
   <!-- Indicators -->
   <!--<ol class="carousel-indicators">
